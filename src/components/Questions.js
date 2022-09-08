@@ -2,7 +2,10 @@ import React from 'react'
 
 const Questions = () => {
   return (
-    <div></div>
+    <div>
+        <h3></h3>
+        <div></div>
+    </div>
   )
 }
 
