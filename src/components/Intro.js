@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <div>
         <h1></h1>
-        <p>Have</p>
+        <p>Have fun picking your brain</p>
     </div>
   )
 }
