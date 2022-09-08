@@ -5,7 +5,7 @@ const Intro = () => {
     <div>
         <h1>Quizzical</h1>
         <p>Have fun picking your brain</p>
-        <button></button>
+        <button>Start Quiz</button>
     </div>
   )
 }
