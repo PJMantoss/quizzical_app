@@ -5,7 +5,7 @@ const Questions = () => {
     <div>
         <h3>Question</h3>
         <div>Options</div>
-        <button></button>
+        <button>Check Answers</button>
     </div>
   )
 }
