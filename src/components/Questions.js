@@ -2,6 +2,9 @@ import React, {useState, useEffect} from 'react';
 
 const Questions = () => {
   const [questions, setQuestions] = useState([]);
+
+  useEffetc(() => {})
+
   return (
     <div>
         <h3>Question</h3>
