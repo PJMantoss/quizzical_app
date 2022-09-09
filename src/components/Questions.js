@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 const Questions = () => {
   const [questions, setQuestions] = useState([]);
 
-  useEffect(() => {}, [])
+  useEffect(() => {}, []);
 
   return (
     <div>
