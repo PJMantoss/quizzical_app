@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import Questions from './components/Questions';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Quizzical App
+      <Questions />
     </div>
   );
 }
