@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
 const API = "https://opentdb.com/api.php?amount=5&category=30&difficulty=medium&type=multiple";
+console.log(API);
 
 const Questions = () => {
   const [questions, setQuestions] = useState([]);
