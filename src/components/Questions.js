@@ -3,11 +3,16 @@ import React, {useState, useEffect} from 'react';
 const Questions = () => {
 
   const API = "https://opentdb.com/api.php?amount=5&category=30&difficulty=medium&type=multiple";
-  console.log(API);
 
-  const [questions, setQuestions] = useState([]);
+  const [question, setQuestion] = useState([]);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const getQuestion = async () => {
+      let res = await fetch(API);
+      setQuestion(await res.json());
+      console.log(question);
+    }
+  }, []);
 
   return (
     <div>
