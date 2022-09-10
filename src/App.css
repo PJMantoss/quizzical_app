@@ -3,9 +3,16 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #f5f7fb;
+}
+
+.yellowblob {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* Intro */
