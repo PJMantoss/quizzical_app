@@ -52,3 +52,7 @@
 }
 
 /* Question */
+.questionContainer{
+  border-bottom: 1px solid #dbdef0;
+  padding: 16px 0;
+}
