@@ -19,3 +19,9 @@
   font-weight: 400;
   color: #293264;
 }
+
+.startBtn {
+  background: #4d5b9e;
+  color: white;
+  border: 0;
+}
