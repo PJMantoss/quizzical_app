@@ -4,7 +4,7 @@ const Question = () => {
   return (
     <div className='questionContainer'>
       <h1 className='question'></h1>
-      <div className=''></div>
+      <div className='answers'></div>
     </div>
   )
 }
