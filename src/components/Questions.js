@@ -11,7 +11,9 @@ const Questions = () => {
       let res = await fetch(API);
       setQuestion(await res.json());
       console.log(question);
-    }
+    };
+
+    getQuestion();
   }, []);
 
   return (
