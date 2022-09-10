@@ -9,8 +9,8 @@ const Questions = () => {
   useEffect(() => {
     const getQuestion = async () => {
       let res = await fetch(API);
+      console.log(res);
       setQuestion(await res.json());
-      console.log(question);
     };
 
     getQuestion();
