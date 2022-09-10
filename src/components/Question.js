@@ -5,10 +5,10 @@ const Question = () => {
     <div className='questionContainer'>
       <h1 className='question'>Question</h1>
       <div className='answersContainer'>
-        <span>Ans1</span>
-        <span>Ans2</span>
-        <span>Ans3</span>
-        <span>Ans4</span>
+        <span className='answersContainer'>Ans1</span>
+        <span className='answersContainer'>Ans2</span>
+        <span className='answersContainer'>Ans3</span>
+        <span className='answersContainer'>Ans4</span>
       </div>
     </div>
   )
