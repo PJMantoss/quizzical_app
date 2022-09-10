@@ -9,7 +9,13 @@
 }
 
 .heading {
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 700;
+  color: #293264;
+}
+
+.desc {
+  font-size: 16px;
+  font-weight: 400;
   color: #293264;
 }
