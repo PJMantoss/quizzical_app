@@ -63,4 +63,7 @@
   color: #293264;
 }
 
-.answersContainer {}
+.answersContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
