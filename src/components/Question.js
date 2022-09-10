@@ -6,9 +6,9 @@ const Question = () => {
       <h1 className='question'>Q</h1>
       <div className='answersContainer'>
         <span>Ans1</span>
-        <span>Ans1</span>
-        <span>Ans1</span>
-        <span>Ans1</span>
+        <span>Ans2</span>
+        <span>Ans3</span>
+        <span>Ans4</span>
       </div>
     </div>
   )
