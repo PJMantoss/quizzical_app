@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Question = () => {
   return (
@@ -6,4 +6,4 @@ const Question = () => {
   )
 }
 
-export default Question
+export default Question;
