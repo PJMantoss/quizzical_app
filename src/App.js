@@ -6,13 +6,13 @@ function App() {
   return (
     <div className="App">
       <img 
-        src='' 
+        src='../images/yellowblob.png' 
         alt='' 
         className='yellowblob' 
       />
       <Intro />
       <img 
-        src='' 
+        src='../images/blueblob.png' 
         alt='' 
         className='blueblob' 
       />
