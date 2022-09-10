@@ -1,4 +1,5 @@
 import Questions from './components/Questions';
+import Question from './components/Question';
 import Intro from './components/Intro';
 import './App.css';
 
@@ -10,7 +11,7 @@ function App() {
         alt='' 
         className='yellowblob' 
       />
-      <Intro />
+      <Question />
       <img 
         src='../images/blueblob.png' 
         alt='' 
