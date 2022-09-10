@@ -5,9 +5,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <img src='' alt='' />
+      <img 
+        src='' 
+        alt='' 
+        className='yellowblob' 
+      />
       <Intro />
-      <img src='' alt='' />
+      <img 
+        src='' 
+        alt='' 
+        className='blueblob' 
+      />
     </div>
   );
 }
