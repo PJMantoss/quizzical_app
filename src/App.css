@@ -70,4 +70,6 @@
   margin-top: 15px;
 }
 
-.answersBtn{}
+.answersBtn{
+  border: 1px solid #4dfb9e;
+}
