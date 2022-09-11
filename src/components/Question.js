@@ -11,7 +11,10 @@ const Question = (props) => {
   //all answers
   const answersElements = props.allAnswers.map((answer, idx) => {
     return (
-      <button></button>
+      // class correct => when answer = correct answer
+      <button>
+        {decode(answer)}
+      </button>
     )
   })
 
