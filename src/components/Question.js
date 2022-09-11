@@ -9,7 +9,7 @@ const Question = (props) => {
   };
 
   //all answers
-  const answersElements = props.allAnswers.map(() => {})
+  const answersElements = props.allAnswers.map((answer, idx) => {})
 
   return (
     <div className='questionContainer'>
