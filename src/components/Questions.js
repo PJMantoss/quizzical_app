@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import Question from './Question';
 
 const Questions = () => {
 
@@ -18,9 +19,7 @@ const Questions = () => {
 
   return (
     <div>
-        <h3>Question</h3>
-        <div>Options</div>
-        <button>Check Answers</button>
+        <Question />
     </div>
   )
 }
