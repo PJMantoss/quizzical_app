@@ -1,6 +1,10 @@
 import React from 'react';
+import {decode} from 'html-entities';
 
 const Question = (props) => {
+  //select an option
+  function selectAnswer(){}
+  
   return (
     <div className='questionContainer'>
       <h1 className='question'>Question</h1>
