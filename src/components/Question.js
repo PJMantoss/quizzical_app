@@ -16,7 +16,7 @@ const Question = (props) => {
       // class dimmed => all options selected except correct answer  
       <button 
         key={idx} 
-        onClick 
+        onClick={() => selectAnswer(answer, props.question)} 
         className='' 
         disabled
       >
