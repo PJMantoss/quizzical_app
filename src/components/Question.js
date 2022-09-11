@@ -6,7 +6,10 @@ const Question = (props) => {
   function selectAnswer(answer, currentQuestion){
     // update answer
     props.updateAnswer(answer, currentQuestion);
-  }
+  };
+
+  //all answers
+  const answersElements = props.allAnswers.map(() => {})
 
   return (
     <div className='questionContainer'>
