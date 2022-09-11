@@ -14,7 +14,12 @@ const Question = (props) => {
       // class correct => when option = correct answer
       // class incorrect => when option = user selected option & it's incorrect answer
       // class dimmed => all options selected except correct answer  
-      <button key onClick className='' disabled>
+      <button 
+        key={idx} 
+        onClick 
+        className='' 
+        disabled
+      >
         {decode(answer)}
       </button>
     )
