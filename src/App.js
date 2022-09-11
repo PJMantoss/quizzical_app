@@ -11,7 +11,7 @@ function App() {
         alt='' 
         className='yellowblob' 
       />
-      <Question />
+      <Questions />
       <img 
         src='../images/blueblob.png' 
         alt='' 
