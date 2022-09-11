@@ -1,5 +1,4 @@
 import Questions from './components/Questions';
-import Question from './components/Question';
 import Intro from './components/Intro';
 import './App.css';
 
