@@ -12,6 +12,8 @@ const Question = (props) => {
   const answersElements = props.allAnswers.map((answer, idx) => {
     return (
       // class correct => when answer = correct answer
+      // class incorrect => when answer = user selected answer & it's incorrect answer
+      // class dimmed => all options selected except correct answer  
       <button>
         {decode(answer)}
       </button>
