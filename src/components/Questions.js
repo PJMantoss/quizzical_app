@@ -14,6 +14,9 @@ const Questions = () => {
   // If there are unanswered question(s) show warning
   const [showWarning, setShowWarning] = useState(false);
 
+  // Number of correct answers
+  const [numOfCorrectAnswers, setNumOfCorrectAnswers] = useState(0);
+
   useEffect(() => {
     const getQuestion = async () => {
       let res = await fetch(API);
