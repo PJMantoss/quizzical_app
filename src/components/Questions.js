@@ -8,6 +8,9 @@ const Questions = () => {
   // questions from the OTDB API
   const [questions, setQuestions] = useState([]);
 
+  // mapping each question to its options
+  const [questionAndOptions, setQuestionAndOptions] = useState([]);
+
   useEffect(() => {
     const getQuestion = async () => {
       let res = await fetch(API);
