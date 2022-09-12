@@ -18,7 +18,7 @@ const Question = (props) => {
         key={idx} 
         onClick={() => selectAnswer(answer, props.question)} 
         className='' 
-        disabled
+        disabled={props.showResult}
       >
         {decode(answer)}
       </button>
