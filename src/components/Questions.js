@@ -46,6 +46,9 @@ const Questions = () => {
     }
   }, [questions]);
 
+  // shuffle answers
+  function shuffle(){}
+
   return (
     <div>
         <Question />
