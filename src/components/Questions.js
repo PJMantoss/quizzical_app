@@ -24,7 +24,7 @@ const Questions = () => {
       const API = "https://opentdb.com/api.php?amount=5&category=30&difficulty=medium&type=multiple";
 
       fetch(API).then(response => response.json).then(data => {
-        setQuestions()
+        setQuestions(data.results)
       })
     }
   }, [questions]);
