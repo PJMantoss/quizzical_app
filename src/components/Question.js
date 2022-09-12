@@ -21,8 +21,13 @@ const Question = (props) => {
           answer === props.selectedAnswer ? 'selected' : ''
         } 
         ${
-          props.showResult && answer === correctAnswer ? 'correct' : ''
-        } ${} ${}`}
+          props.showResult && answer === props.correctAnswer ? 'correct' : ''
+        } 
+        ${
+          props.showResult &&
+          answer === props.selectedAnswer &&
+          answer !== 
+        } ${}`}
         disabled={props.showResult}
       >
         {decode(answer)}
