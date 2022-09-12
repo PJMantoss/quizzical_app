@@ -29,7 +29,10 @@ const Question = (props) => {
           answer !== props.correctAnswer
           ? 'incorrect'
           : ''
-        } ${}`}
+        } 
+        ${
+          props.showResult && answer !== props.correctAnswer ? 'dimmed' : ''
+        }`}
         disabled={props.showResult}
       >
         {decode(answer)}
