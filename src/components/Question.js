@@ -26,7 +26,9 @@ const Question = (props) => {
         ${
           props.showResult &&
           answer === props.selectedAnswer &&
-          answer !== 
+          answer !== props.correctAnswer
+          ? 'incorrect'
+          : ''
         } ${}`}
         disabled={props.showResult}
       >
