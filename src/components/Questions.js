@@ -23,7 +23,7 @@ const Questions = () => {
     if(questions.length === 0){
       const API = "https://opentdb.com/api.php?amount=5&category=30&difficulty=medium&type=multiple";
 
-      fetch(API).then(response => response.json).then(data => {
+      fetch(API).then(response => response.json()).then(data => {
         setQuestions(data.results);
         console.log(data.results)
         // Each item in questionAndOptions will be an {} containing the following:
