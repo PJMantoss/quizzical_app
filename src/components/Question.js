@@ -17,7 +17,9 @@ const Question = (props) => {
       <button 
         key={idx} 
         onClick={() => selectAnswer(answer, props.question)} 
-        className={`answerBtn ${} ${} ${} ${}`} 
+        className={`answerBtn ${
+          answer === props.selectedAnswer ? 'selected' : ''
+        } ${} ${} ${}`}
         disabled={props.showResult}
       >
         {decode(answer)}
