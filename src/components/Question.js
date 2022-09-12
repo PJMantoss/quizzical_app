@@ -19,7 +19,10 @@ const Question = (props) => {
         onClick={() => selectAnswer(answer, props.question)} 
         className={`answerBtn ${
           answer === props.selectedAnswer ? 'selected' : ''
-        } ${} ${} ${}`}
+        } 
+        ${
+          props.showResult && answer === correctAnswer ? 'correct' : ''
+        } ${} ${}`}
         disabled={props.showResult}
       >
         {decode(answer)}
