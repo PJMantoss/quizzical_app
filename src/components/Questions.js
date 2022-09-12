@@ -33,6 +33,8 @@ const Questions = () => {
             return {
               question: questionObj.question,
               shuffledAnswers: shuffle([]),
+              correctAnswer: questionObj.correct_answer,
+              selectedAnswer: ''
             }
           })
         )
