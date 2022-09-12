@@ -42,12 +42,9 @@ const Question = (props) => {
 
   return (
     <div className='questionContainer'>
-      <h1 className='question'>Question</h1>
+      <h1 className='question'></h1>
       <div className='answersContainer'>
-        <span className='answersBtn'>Ans1</span>
-        <span className='answersBtn'>Ans2</span>
-        <span className='answersBtn'>Ans3</span>
-        <span className='answersBtn'>Ans4</span>
+        {answersElements}
       </div>
     </div>
   )
