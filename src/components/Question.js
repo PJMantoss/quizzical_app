@@ -42,7 +42,9 @@ const Question = (props) => {
 
   return (
     <div className='questionContainer'>
-      <h1 className='question'></h1>
+      <h1 className='question'>
+        {decode(props.question)}
+      </h1>
       <div className='answersContainer'>
         {answersElements}
       </div>
