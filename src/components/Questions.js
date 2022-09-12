@@ -3,8 +3,6 @@ import Question from './Question';
 
 const Questions = () => {
 
-  const API = "https://opentdb.com/api.php?amount=5&category=30&difficulty=medium&type=multiple";
-
   // questions from the OTDB API
   const [questions, setQuestions] = useState([]);
 
@@ -22,8 +20,14 @@ const Questions = () => {
 
   useEffect(() => {
     // first render and new game
-    if(questions.length === 0){}
-  }, []);
+    if(questions.length === 0){
+      const API = "https://opentdb.com/api.php?amount=5&category=30&difficulty=medium&type=multiple";
+
+      fetch(API).then(response => response.json).then(data => {
+        setQuestions()
+      })
+    }
+  }, [questions]);
 
   return (
     <div>
