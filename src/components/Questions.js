@@ -25,6 +25,7 @@ const Questions = () => {
 
       fetch(API).then(response => response.json).then(data => {
         setQuestions(data.results);
+        console.log(data.results)
         // Each item in questionAndOptions will be an {} containing the following:
         // question, shuffle answers, correct answer, selected answer
 
@@ -32,7 +33,10 @@ const Questions = () => {
           data.results.map(questionObj => {
             return {
               question: questionObj.question,
-              shuffledAnswers: shuffle([]),
+              shuffledAnswers: shuffle([
+                ...questionObj.incorrect_answers,
+                questionObj.correct_answer
+              ]),
               correctAnswer: questionObj.correct_answer,
               selectedAnswer: ''
             }
