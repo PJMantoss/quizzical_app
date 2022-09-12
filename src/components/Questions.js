@@ -5,7 +5,8 @@ const Questions = () => {
 
   const API = "https://opentdb.com/api.php?amount=5&category=30&difficulty=medium&type=multiple";
 
-  const [question, setQuestion] = useState([]);
+  // questions from the OTDB API
+  const [questions, setQuestions] = useState([]);
 
   useEffect(() => {
     const getQuestion = async () => {
