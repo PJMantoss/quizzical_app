@@ -21,13 +21,8 @@ const Questions = () => {
   const [showResults, setShowResults] = useState(false);
 
   useEffect(() => {
-    const getQuestion = async () => {
-      let res = await fetch(API);
-      console.log(res);
-      setQuestion(await res.json());
-    };
-
-    getQuestion();
+    // first render and new game
+    if(questions.length === 0){}
   }, []);
 
   return (
