@@ -24,7 +24,9 @@ const Questions = () => {
       const API = "https://opentdb.com/api.php?amount=5&category=30&difficulty=medium&type=multiple";
 
       fetch(API).then(response => response.json).then(data => {
-        setQuestions(data.results)
+        setQuestions(data.results);
+        // Each item in questionAndOptions will be an {} containing the following:
+        // question, shuffle answers, correct answer, selected answer
       })
     }
   }, [questions]);
