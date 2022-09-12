@@ -11,6 +11,9 @@ const Questions = () => {
   // mapping each question to its options
   const [questionAndOptions, setQuestionAndOptions] = useState([]);
 
+  // If there are unanswered question(s) show warning
+  const [showWarning, setShowWarning] = useState(false);
+
   useEffect(() => {
     const getQuestion = async () => {
       let res = await fetch(API);
