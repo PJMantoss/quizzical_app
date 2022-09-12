@@ -29,7 +29,12 @@ const Questions = () => {
         // question, shuffle answers, correct answer, selected answer
 
         setQuestionAndOptions(
-          data.results.map(questionObj => {})
+          data.results.map(questionObj => {
+            return {
+              question: questionObj.question,
+              shuffledAnswers: shuffle([]),
+            }
+          })
         )
       })
     }
