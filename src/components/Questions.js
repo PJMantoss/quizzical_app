@@ -17,6 +17,9 @@ const Questions = () => {
   // Number of correct answers
   const [numOfCorrectAnswers, setNumOfCorrectAnswers] = useState(0);
 
+  // Show results
+  const [showResults, setShowResults] = useState(false);
+
   useEffect(() => {
     const getQuestion = async () => {
       let res = await fetch(API);
