@@ -29,19 +29,19 @@ const Questions = () => {
         // Each item in questionAndOptions will be an {} containing the following:
         // question, shuffle answers, correct answer, selected answer
 
-        // setQuestionAndOptions(
-        //   data.results.map(questionObj => {
-        //     return {
-        //       question: questionObj.question,
-        //       shuffledAnswers: shuffle([
-        //         ...questionObj.incorrect_answers,
-        //         questionObj.correct_answer
-        //       ]),
-        //       correctAnswer: questionObj.correct_answer,
-        //       selectedAnswer: ''
-        //     }
-        //   })
-        // )
+        setQuestionAndOptions(
+          data.results.map(questionObj => {
+            return {
+              question: questionObj.question,
+              shuffledAnswers: shuffle([
+                ...questionObj.incorrect_answers,
+                questionObj.correct_answer
+              ]),
+              correctAnswer: questionObj.correct_answer,
+              selectedAnswer: ''
+            }
+          })
+        )
       })
     }
   }, [questions]);
