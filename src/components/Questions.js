@@ -27,6 +27,10 @@ const Questions = () => {
         setQuestions(data.results);
         // Each item in questionAndOptions will be an {} containing the following:
         // question, shuffle answers, correct answer, selected answer
+
+        setQuestionAndOptions(
+          data.results.map()
+        )
       })
     }
   }, [questions]);
