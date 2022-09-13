@@ -47,7 +47,12 @@ const Questions = () => {
   }, [questions]);
 
   // shuffle answers
-  function shuffle(){}
+  function shuffle(arr){
+    let currentIndex = arr.length;
+    let randomIndex;
+
+    while()
+  }
 
   return (
     <div>
