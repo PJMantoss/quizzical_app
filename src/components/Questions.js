@@ -97,7 +97,9 @@ const Questions = () => {
       // Show result
       showResult(true)
     }
-  }
+  };
+
+  // Play again
 
   return (
     <div>
