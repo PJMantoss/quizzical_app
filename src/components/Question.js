@@ -3,9 +3,9 @@ import {decode} from 'html-entities';
 
 const Question = (props) => {
   //select an option
-  function selectAnswer(answer, currentQuestion){
+  function selectAnswer(currentQuestion, answer){
     // update answer
-    props.updateAnswers(answer, currentQuestion);
+    props.updateAnswers(currentQuestion, answer);
   };
 
   //all answers
