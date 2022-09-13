@@ -83,6 +83,11 @@ const Questions = () => {
     );
 
     setShowWarning(notAllAnswered);
+
+    // case 2: All questions have been answered
+    if(!notAllAnswered){
+      questionAndOptions.forEach()
+    }
   }
 
   return (
