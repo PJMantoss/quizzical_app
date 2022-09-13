@@ -67,6 +67,8 @@ const Questions = () => {
       questionAndOptions.map(questionObj => {
         // if it's the question being answered, update its selected answer
         return questionObj.question === currentQuestion
+        ? {}
+        : questionObj
       })
     )
   }
