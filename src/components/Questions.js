@@ -61,6 +61,9 @@ const Questions = () => {
     return arr;
   }
 
+  // Choosing an option 
+  function updateAnswers(answer, currentQuestion){}
+
   return (
     <div>
         <Question />
