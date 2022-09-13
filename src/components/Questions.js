@@ -57,6 +57,8 @@ const Questions = () => {
 
       [arr[currentIndex], arr[randomIndex]] = [arr[randomIndex], arr[currentIndex]]
     }
+
+    return arr;
   }
 
   return (
