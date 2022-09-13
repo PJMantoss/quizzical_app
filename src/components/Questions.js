@@ -87,8 +87,12 @@ const Questions = () => {
     // case 2: All questions have been answered
     if(!notAllAnswered){
       questionAndOptions.forEach(questionObj => {
-        // 
-        if(questionObj.selectedAnswer === questionObj.correctAnswer){}
+        // compare selected answer and correct answer
+        if(questionObj.selectedAnswer === questionObj.correctAnswer){
+          setNumOfCorrectAnswers(
+            prevCorrecteAnswer => prevCorrecteAnswer + 1
+          )
+        }
       })
     }
   }
