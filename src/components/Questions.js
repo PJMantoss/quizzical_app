@@ -53,6 +53,9 @@ const Questions = () => {
 
     while(currentIndex != 0){
       randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+
+      [] = []
     }
   }
 
