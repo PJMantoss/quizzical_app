@@ -16,7 +16,7 @@ const Questions = () => {
   const [numOfCorrectAnswers, setNumOfCorrectAnswers] = useState(0);
 
   // Show results
-  const [showResults, setShowResults] = useState(false);
+  const [showResult, setShowResult] = useState(false);
 
   useEffect(() => {
     // first render and new game
@@ -94,8 +94,8 @@ const Questions = () => {
           );
         }
       });
-      // Show results
-      showResults(true)
+      // Show result
+      showResult(true)
     }
   }
 
