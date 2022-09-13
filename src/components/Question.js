@@ -5,7 +5,7 @@ const Question = (props) => {
   //select an option
   function selectAnswer(answer, currentQuestion){
     // update answer
-    props.updateAnswer(answer, currentQuestion);
+    props.updateAnswers(answer, currentQuestion);
   };
 
   //all answers
