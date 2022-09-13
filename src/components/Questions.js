@@ -70,8 +70,11 @@ const Questions = () => {
         ? {...questionObj, selectedAnswer: answer}
         : questionObj
       })
-    )
+    );
   }
+
+  // on clicking check answers
+  function checkAnswers(){}
 
   return (
     <div>
