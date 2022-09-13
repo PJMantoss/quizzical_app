@@ -64,7 +64,10 @@ const Questions = () => {
   // Choosing an option 
   function updateAnswers(currentQuestion, answer){
     setQuestionAndOptions(
-      questionAndOptions.map(questionObj => {})
+      questionAndOptions.map(questionObj => {
+        // if it's the question being answered, update its selected answer
+        return questionObj.question === currentQuestion
+      })
     )
   }
 
