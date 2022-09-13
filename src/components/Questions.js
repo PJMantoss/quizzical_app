@@ -78,7 +78,9 @@ const Questions = () => {
     // find unanswered questions
 
     // case 1: missing answers
-    const notAllAnswered = questionAndOptions.some()
+    const notAllAnswered = questionAndOptions.some(
+      questionObj => questionObj.selectedAnswer === ''
+    );
   }
 
   return (
