@@ -74,7 +74,12 @@ const Questions = () => {
   }
 
   // on clicking check answers
-  function checkAnswers(){}
+  function checkAnswers(){
+    // find unanswered questions
+
+    // case 1: missing answers
+    const notAllAnswered = questionAndOptions.some()
+  }
 
   return (
     <div>
