@@ -90,10 +90,12 @@ const Questions = () => {
         // compare selected answer and correct answer
         if(questionObj.selectedAnswer === questionObj.correctAnswer){
           setNumOfCorrectAnswers(
-            prevCorrecteAnswer => prevCorrecteAnswer + 1
-          )
+            prevNumCorrectAnswers => prevNumCorrectAnswers + 1
+          );
         }
-      })
+      });
+      // Show results
+      showResults(true)
     }
   }
 
