@@ -52,7 +52,7 @@ const Questions = () => {
     let randomIndex;
 
     while(currentIndex != 0){
-      
+      randomIndex = Math.floor(Math.random() * currentIndex);
     }
   }
 
