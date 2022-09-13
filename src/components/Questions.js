@@ -51,7 +51,9 @@ const Questions = () => {
     let currentIndex = arr.length;
     let randomIndex;
 
-    while()
+    while(currentIndex != 0){
+      
+    }
   }
 
   return (
