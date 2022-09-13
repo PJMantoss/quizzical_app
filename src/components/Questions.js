@@ -62,7 +62,9 @@ const Questions = () => {
   }
 
   // Choosing an option 
-  function updateAnswers(answer, currentQuestion){}
+  function updateAnswers(currentQuestion, answer){
+    setQuestionAndOptions()
+  }
 
   return (
     <div>
