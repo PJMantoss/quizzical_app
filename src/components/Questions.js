@@ -81,6 +81,8 @@ const Questions = () => {
     const notAllAnswered = questionAndOptions.some(
       questionObj => questionObj.selectedAnswer === ''
     );
+
+    setShowWarning(notAllAnswered);
   }
 
   return (
