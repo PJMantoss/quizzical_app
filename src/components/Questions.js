@@ -86,7 +86,10 @@ const Questions = () => {
 
     // case 2: All questions have been answered
     if(!notAllAnswered){
-      questionAndOptions.forEach()
+      questionAndOptions.forEach(questionObj => {
+        // 
+        if(questionObj.selectedAnswer === questionObj.correctAnswer){}
+      })
     }
   }
 
