@@ -130,7 +130,9 @@ const Questions = () => {
         </div>
 
         <div className='text-info'>
-          {showWarning}
+          {showWarning && (
+            <p className='warning'></p>
+          )}
         </div>
 
         {showResult}
