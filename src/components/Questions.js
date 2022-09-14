@@ -133,5 +133,3 @@ const Questions = () => {
 }
 
 export default Questions;
-
-//https://opentdb.com/api.php?amount=5&category=30&difficulty=medium&type=multiple
