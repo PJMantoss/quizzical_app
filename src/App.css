@@ -105,6 +105,10 @@ font-family: 'Karla', sans-serif; */
   border-color: #f8bcbc;
 }
 
+.answerBtn.dimmed {
+  opacity: 0.5;
+}
+
 /* Questions */
 .questionsContainer{
   padding: 30px 75px;
