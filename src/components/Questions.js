@@ -131,7 +131,9 @@ const Questions = () => {
 
         <div className='text-info'>
           {showWarning && (
-            <p className='warning'></p>
+            <p className='warning'>
+              There are Unanswered Questions^
+            </p>
           )}
         </div>
 
