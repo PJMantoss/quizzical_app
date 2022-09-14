@@ -114,6 +114,11 @@ const Questions = () => {
       <Question 
         key={idx} 
         question={questionObj.question} 
+        allAnswers={}
+        selectedAnswer={}
+        correctAnswer={}
+        showResult={}
+        updateAnswers={}
       />
     );
   })
