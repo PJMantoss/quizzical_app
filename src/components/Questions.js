@@ -129,9 +129,11 @@ const Questions = () => {
           })}
         </div>
 
-        <div className='text-info'></div>
+        <div className='text-info'>
+          {showWarning}
+        </div>
 
-        {}
+        {showResult}
     </div>
   )
 }
