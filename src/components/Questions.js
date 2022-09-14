@@ -108,6 +108,9 @@ const Questions = () => {
     setNumOfCorrectAnswers(0);
   }
 
+  // Questions
+  const questionsElements = questionAndOptions.map()
+
   return (
     <div>
         <Question />
