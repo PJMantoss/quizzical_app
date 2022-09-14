@@ -109,24 +109,24 @@ const Questions = () => {
   }
 
   // Questions
-  const questionsElements = questionAndOptions.map((questionObj,idx) => {
-    return (
-      <Question 
-        key={idx} 
-        question={questionObj.question} 
-        allAnswers={questionObj.shuffledAnswers}
-        selectedAnswer={questionObj.selectedAnswer}
-        correctAnswer={questionObj.correctAnswer}
-        showResult={showResult}
-        updateAnswers={updateAnswers}
-      />
-    );
-  })
 
   return (
     <div>
         <div className=''>
-          {questionsElements}
+          {
+            questionAndOptions.map((questionObj,idx) => {
+              return (
+                <Question 
+                  key={idx} 
+                  question={questionObj.question} 
+                  allAnswers={questionObj.shuffledAnswers}
+                  selectedAnswer={questionObj.selectedAnswer}
+                  correctAnswer={questionObj.correctAnswer}
+                  showResult={showResult}
+                  updateAnswers={updateAnswers}
+                />
+              );
+          })}
         </div>
     </div>
   )
