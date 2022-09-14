@@ -114,9 +114,9 @@ const Questions = () => {
       <Question 
         key={idx} 
         question={questionObj.question} 
-        allAnswers={}
-        selectedAnswer={}
-        correctAnswer={}
+        allAnswers={questionObj.shuffledAnswers}
+        selectedAnswer={questionObj.selectedAnswer}
+        correctAnswer={questionObj.correctAnswer}
         showResult={}
         updateAnswers={}
       />
