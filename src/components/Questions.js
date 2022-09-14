@@ -102,6 +102,10 @@ const Questions = () => {
   // Play again
   function playAgain(){
     // reset states
+    setQuestions([]);
+    setQuestionAndOptions([]);
+    setShowResult(false);
+    setNumOfCorrectAnswers(0);
   }
 
   return (
