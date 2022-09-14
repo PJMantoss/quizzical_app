@@ -21,19 +21,19 @@ const Question = (props) => {
           answer === props.selectedAnswer ? 'selected' : ''
         } 
         ${
-          props.showResults && answer === props.correctAnswer ? 'correct' : ''
+          props.showResult && answer === props.correctAnswer ? 'correct' : ''
         } 
         ${
-          props.showResults &&
+          props.showResult &&
           answer === props.selectedAnswer &&
           answer !== props.correctAnswer
           ? 'incorrect'
           : ''
         } 
         ${
-          props.showResults && answer !== props.correctAnswer ? 'dimmed' : ''
+          props.showResult && answer !== props.correctAnswer ? 'dimmed' : ''
         }`}
-        disabled={props.showResults}
+        disabled={props.showResult}
       >
         {decode(answer)}
       </button>
