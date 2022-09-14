@@ -112,7 +112,7 @@ const Questions = () => {
 
   return (
     <div>
-        <div className=''>
+        <div className='questionsContainer'>
           {
             questionAndOptions.map((questionObj,idx) => {
               return (
@@ -128,6 +128,10 @@ const Questions = () => {
               );
           })}
         </div>
+
+        <div className='text-info'></div>
+
+        {}
     </div>
   )
 }

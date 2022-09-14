@@ -90,3 +90,6 @@ font-family: 'Karla', sans-serif; */
 }
 
 /* Questions */
+.questionsContainer{
+  padding: 30px 75px;
+}
