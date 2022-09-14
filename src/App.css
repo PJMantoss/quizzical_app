@@ -95,9 +95,14 @@ font-family: 'Karla', sans-serif; */
   border-color: #d6dbf5;
 }
 
-.answerBtn.selected {
+.answerBtn.correct {
   background: #94d7a2;
   border-color: #94d7a2;
+}
+
+.answerBtn.incorrect {
+  background: #f8bcbc;
+  border-color: #f8bcbc;
 }
 
 /* Questions */
