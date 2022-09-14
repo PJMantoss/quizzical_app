@@ -109,11 +109,15 @@ const Questions = () => {
   }
 
   // Questions
-  const questionsElements = questionAndOptions.map()
+  const questionsElements = questionAndOptions.map((questionObj,idx) => {
+    return (
+      <Question key={idx} question={questionObj.question} />
+    );
+  })
 
   return (
     <div>
-        <Question />
+        
     </div>
   )
 }
