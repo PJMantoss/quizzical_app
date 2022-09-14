@@ -125,7 +125,9 @@ const Questions = () => {
 
   return (
     <div>
-        
+        <div className=''>
+          {questionsElements}
+        </div>
     </div>
   )
 }
