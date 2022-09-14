@@ -100,6 +100,9 @@ const Questions = () => {
   };
 
   // Play again
+  function playAgain(){
+    // reset states
+  }
 
   return (
     <div>
