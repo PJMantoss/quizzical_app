@@ -117,8 +117,8 @@ const Questions = () => {
         allAnswers={questionObj.shuffledAnswers}
         selectedAnswer={questionObj.selectedAnswer}
         correctAnswer={questionObj.correctAnswer}
-        showResult={}
-        updateAnswers={}
+        showResult={showResult}
+        updateAnswers={updateAnswers}
       />
     );
   })
