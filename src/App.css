@@ -94,3 +94,10 @@ font-family: 'Karla', sans-serif; */
 .questionsContainer{
   padding: 30px 75px;
 }
+
+.warning {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff5858;
+}
