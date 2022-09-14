@@ -97,7 +97,8 @@ font-family: 'Karla', sans-serif; */
 
 .warning {
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   color: #ff5858;
+  margin-bottom: 1rem;
 }
