@@ -95,6 +95,11 @@ font-family: 'Karla', sans-serif; */
   border-color: #d6dbf5;
 }
 
+.answerBtn.selected {
+  background: #94d7a2;
+  border-color: #94d7a2;
+}
+
 /* Questions */
 .questionsContainer{
   padding: 30px 75px;
