@@ -95,7 +95,7 @@ const Questions = () => {
         }
       });
       // Show result
-      setShowResult(true)
+      setShowResult(true);
     }
   };
 
