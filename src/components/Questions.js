@@ -111,7 +111,7 @@ const Questions = () => {
   // Questions
 
   return (
-    <div>
+    <div className='questionsComponent'>
         <div className='questionsContainer'>
           {
             questionAndOptions.map((questionObj,idx) => {
