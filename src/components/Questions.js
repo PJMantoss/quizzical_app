@@ -135,6 +135,8 @@ const Questions = () => {
               There are Unanswered Questions^
             </p>
           )}
+
+          {questions.length > 0 && !showResult ? }
         </div>
 
         {showResult}
