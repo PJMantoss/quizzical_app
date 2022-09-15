@@ -5,7 +5,7 @@ font-family: 'Karla', sans-serif; */
 .App {
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,6 +63,37 @@ font-family: 'Karla', sans-serif; */
   cursor: pointer;
 }
 
+/* Questions */
+.questionsComponent{
+  z-index: 1;
+}
+
+.questionsContainer{
+  padding: 30px 75px;
+  /* margin: 30px auto 0; */
+}
+
+.warning {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ff5858;
+  margin-bottom: 1rem;
+}
+
+.checkBtn,
+.playAgainBtn {
+  background: #4d5b9e;
+  color: #f5f7fb;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 10px;
+  padding: 14px 25px;
+  cursor: pointer;
+}
+
 /* Question */
 .questionContainer{
   position: relative;
@@ -114,38 +145,6 @@ font-family: 'Karla', sans-serif; */
 
 .answerBtn.dimmed {
   opacity: 0.5;
-}
-
-/* Questions */
-.questionsComponent{
-  position: relative;
-  z-index: 1;
-}
-
-.questionsContainer{
-  padding: 30px 75px;
-  /* margin: 30px auto 0; */
-}
-
-.warning {
-  font-family: 'Karla', sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  color: #ff5858;
-  margin-bottom: 1rem;
-}
-
-.checkBtn,
-.playAgainBtn {
-  background: #4d5b9e;
-  color: #f5f7fb;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  border: 0;
-  border-radius: 10px;
-  padding: 14px 25px;
-  cursor: pointer;
 }
 
 .resultContainer{
