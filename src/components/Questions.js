@@ -147,7 +147,7 @@ const Questions = () => {
           ) : null}
         </div>
 
-        {showResult}
+        {showResult && ()}
     </div>
   )
 }
