@@ -149,7 +149,10 @@ const Questions = () => {
 
         {showResult && (
           <div className='resultContainer'>
-            <div className='resultMessage'></div>
+            <p className='resultMessage'></p>
+            <button className=''>
+              Play Again
+            </button>
           </div>
         )}
     </div>
