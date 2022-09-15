@@ -61,17 +61,14 @@ font-family: 'Karla', sans-serif; */
 
 /* Questions */
 .questionsComponent{
-  position: relative;
   height: 100%;
   z-index: 1;
 }
 
 .questionsContainer{
   padding: 30px 75px;
-  position: relative;
   height: 100%;
   overflow-y: scroll;
-  /* margin: 30px auto 0; */
 }
 
 .text-info {
@@ -169,4 +166,10 @@ font-family: 'Karla', sans-serif; */
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   color: #293264;
+}
+
+@media only screen and (max-width: 600px){
+  .questionsContainer{
+    padding: 20px 25px;
+  }
 }
