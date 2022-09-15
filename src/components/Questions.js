@@ -136,7 +136,9 @@ const Questions = () => {
             </p>
           )}
 
-          {questions.length > 0 && !showResult ? }
+          {questions.length > 0 && !showResult ? (
+            <button></button>
+          ) : null}
         </div>
 
         {showResult}
