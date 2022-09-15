@@ -136,6 +136,7 @@ const Questions = () => {
             </p>
           )}
 
+{/* questions.length > 0 means show button when data is available */}
           {questions.length > 0 && !showResult ? (
             <button 
               className='checkBtn' 
