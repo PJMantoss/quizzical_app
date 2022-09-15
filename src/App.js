@@ -7,13 +7,13 @@ function App() {
     <div className="App">
       <img 
         src='../images/yellowblob.png' 
-        alt='' 
+        alt='yellowblob' 
         className='yellowblob' 
       />
       <Questions />
       <img 
         src='../images/blueblob.png' 
-        alt='' 
+        alt='blueblob' 
         className='blueblob' 
       />
     </div>
