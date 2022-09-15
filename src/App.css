@@ -126,4 +126,8 @@ font-family: 'Karla', sans-serif; */
 .playAgainBtn {
   background: #4d5b9e;
   color: #f5f7fb;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+
 }
