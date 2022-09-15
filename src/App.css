@@ -121,3 +121,9 @@ font-family: 'Karla', sans-serif; */
   color: #ff5858;
   margin-bottom: 1rem;
 }
+
+.checkBtn,
+.playAgainBtn {
+  background: #4d5b9e;
+  color: #f5f7fb;
+}
