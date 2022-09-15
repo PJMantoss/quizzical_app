@@ -1,7 +1,7 @@
 import React from 'react';
 import {decode} from 'html-entities';
 
-const Question = (props) => {
+function Question(props){
   //select an option
   function selectAnswer(answer, currentQuestion){
     // update answer
