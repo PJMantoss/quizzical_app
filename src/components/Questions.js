@@ -126,7 +126,6 @@ const Questions = () => {
                 />
               );
           })}
-        </div>
 
         <div className='text-info'>
           {showWarning && (
@@ -135,7 +134,7 @@ const Questions = () => {
             </p>
           )}
 
-{/* questions.length > 0 means show button when data is available */}
+         {/* questions.length > 0 means show button when data is available */}
           {questions.length > 0 && !showResult ? (
             <button 
               className='checkBtn' 
@@ -149,7 +148,7 @@ const Questions = () => {
         {showResult && (
           <div className='resultContainer'>
             <p className='resultMessage'>
-              You scored {numOfCorrectAnswers} / 5 answers
+              You scored {numOfCorrectAnswers} / 9 answers
             </p>
             <button 
               className='playAgainBtn'
@@ -159,6 +158,7 @@ const Questions = () => {
             </button>
           </div>
         )}
+        </div>
     </div>
   )
 }
