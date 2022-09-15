@@ -12,7 +12,10 @@ function App() {
         alt='yellowblob' 
         className='yellowblob' 
       />
-      {showQuestions ? (<Questions />) : (<Intro />)}
+      {showQuestions ? 
+        (<Questions />) : 
+        (<Intro setShowQuestions={true} />)
+      }
       <img 
         src='../images/blueblob.png' 
         alt='blueblob' 
