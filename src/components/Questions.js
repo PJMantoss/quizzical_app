@@ -149,7 +149,9 @@ const Questions = () => {
 
         {showResult && (
           <div className='resultContainer'>
-            <p className='resultMessage'></p>
+            <p className='resultMessage'>
+              You scored {} / 5 answers
+            </p>
             <button className=''>
               Play Again
             </button>
