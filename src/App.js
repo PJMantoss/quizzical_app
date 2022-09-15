@@ -14,7 +14,7 @@ function App() {
       />
       {showQuestions ? 
         (<Questions />) : 
-        (<Intro setShowQuestions={true} />)
+        (<Intro setShowQuestions={setShowQuestions} />)
       }
       <img 
         src='../images/blueblob.png' 
