@@ -137,7 +137,12 @@ const Questions = () => {
           )}
 
           {questions.length > 0 && !showResult ? (
-            <button></button>
+            <button 
+              className='checkBtn' 
+              onClick={}
+            >
+              Check Answers
+            </button>
           ) : null}
         </div>
 
