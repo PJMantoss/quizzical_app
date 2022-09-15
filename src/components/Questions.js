@@ -109,7 +109,6 @@ const Questions = () => {
   }
 
   // Questions
-
   return (
     <div className='questionsComponent'>
         <div className='questionsContainer'>
