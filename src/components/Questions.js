@@ -147,7 +147,11 @@ const Questions = () => {
           ) : null}
         </div>
 
-        {showResult && ()}
+        {showResult && (
+          <div className='resultContainer'>
+            <div className='resultMessage'></div>
+          </div>
+        )}
     </div>
   )
 }
