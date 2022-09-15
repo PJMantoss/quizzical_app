@@ -21,7 +21,7 @@ const Questions = () => {
   useEffect(() => {
     // first render and new game
     if(questions.length === 0){
-      const API = "https://opentdb.com/api.php?amount=10&category=30&difficulty=medium&type=multiple";
+      const API = "https://opentdb.com/api.php?amount=9&category=30&difficulty=medium&type=multiple";
 
       fetch(API).then(response => response.json()).then(data => {
         setQuestions(data.results);
