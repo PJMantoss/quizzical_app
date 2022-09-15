@@ -140,7 +140,7 @@ const Questions = () => {
           {questions.length > 0 && !showResult ? (
             <button 
               className='checkBtn' 
-              onClick={}
+              onClick={checkAnswers}
             >
               Check Answers
             </button>
