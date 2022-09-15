@@ -132,6 +132,7 @@ font-family: 'Karla', sans-serif; */
   border: 0;
   border-radius: 10px;
   padding: 14px 25px;
+  cursor: pointer;
 }
 
 .resultContainer{
@@ -142,6 +143,6 @@ font-family: 'Karla', sans-serif; */
 
 .resultMessage{
   font-family: 'Inter', sans-serif;
-  font-size: 14px;
   font-weight: 700;
+  color: #293264;
 }
