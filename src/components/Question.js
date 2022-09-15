@@ -3,7 +3,7 @@ import {decode} from 'html-entities';
 
 const Question = (props) => {
   //select an option
-  function selectAnswer(currentQuestion, answer){
+  function selectAnswer(answer, currentQuestion){
     // update answer
     props.updateAnswers(currentQuestion, answer);
   };
