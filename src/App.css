@@ -4,6 +4,9 @@
 font-family: 'Karla', sans-serif; */
 .App {
   width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
   background: #f5f7fb;
   z-index: 0;
 }
