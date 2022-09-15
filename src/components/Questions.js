@@ -127,37 +127,37 @@ const Questions = () => {
               );
           })}
 
-        <div className='text-info'>
-          {showWarning && (
-            <p className='warning'>
-              There are Unanswered Questions^
-            </p>
-          )}
+          <div className='text-info'>
+            {showWarning && (
+              <p className='warning'>
+                There are Unanswered Questions^
+              </p>
+            )}
 
-         {/* questions.length > 0 means show button when data is available */}
-          {questions.length > 0 && !showResult ? (
-            <button 
-              className='checkBtn' 
-              onClick={checkAnswers}
-            >
-              Check Answers
-            </button>
-          ) : null}
-        </div>
-
-        {showResult && (
-          <div className='resultContainer'>
-            <p className='resultMessage'>
-              You scored {numOfCorrectAnswers} / 9 answers
-            </p>
-            <button 
-              className='playAgainBtn'
-              onClick={playAgain}
-            >
-              Play Again
-            </button>
+          {/* questions.length > 0 means show button when data is available */}
+            {questions.length > 0 && !showResult ? (
+              <button 
+                className='checkBtn' 
+                onClick={checkAnswers}
+              >
+                Check Answers
+              </button>
+            ) : null}
           </div>
-        )}
+
+          {showResult && (
+            <div className='resultContainer'>
+              <p className='resultMessage'>
+                You scored {numOfCorrectAnswers} / 9 answers
+              </p>
+              <button 
+                className='playAgainBtn'
+                onClick={playAgain}
+              >
+                Play Again
+              </button>
+            </div>
+          )}
         </div>
     </div>
   )
