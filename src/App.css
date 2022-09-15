@@ -74,6 +74,12 @@ font-family: 'Karla', sans-serif; */
   /* margin: 30px auto 0; */
 }
 
+.text-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .warning {
   font-family: 'Karla', sans-serif;
   font-size: 1rem;
