@@ -1,6 +1,6 @@
 # Quizzical App
 
-A solo project in Scrimba's The Frontend Developer Career Path
+A solo project. Part of Scrimba's Frontend Developer Career Path.
 
 ## Tools
 - React JS
